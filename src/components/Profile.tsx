@@ -35,10 +35,10 @@ export default function Profile() {
             </div>
             <div className="flex gap-3">
               <button className="flex items-center gap-2 px-6 py-2.5 bg-primary text-white rounded-lg font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
-                <Edit className="size-4" /> Edit Profile
+                <Edit className="size-4" /> Modifier le profil
               </button>
               <button className="flex items-center gap-2 px-6 py-2.5 bg-white/10 text-white backdrop-blur-md border border-white/20 rounded-lg font-bold hover:bg-white/20 transition-all">
-                <Share2 className="size-4" /> Share
+                <Share2 className="size-4" /> Partager
               </button>
             </div>
           </div>
@@ -51,13 +51,13 @@ export default function Profile() {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <Trophy className="size-5 text-primary" />
-              <h3 className="font-bold text-lg text-white">Otaku Level Progress</h3>
+              <h3 className="font-bold text-lg text-white">Progression du Niveau Otaku</h3>
             </div>
-            <span className="text-sm font-medium text-slate-400">Level 42 • 7,850 XP</span>
+            <span className="text-sm font-medium text-slate-400">Niveau 42 • 7 850 XP</span>
           </div>
           <div className="space-y-3">
             <div className="flex justify-between text-sm font-semibold">
-              <span className="text-slate-300">To Level 43</span>
+              <span className="text-slate-300">Vers le Niveau 43</span>
               <span className="text-primary">75%</span>
             </div>
             <div className="w-full bg-slate-800 h-4 rounded-full overflow-hidden p-1">
@@ -65,18 +65,18 @@ export default function Profile() {
                 <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
               </div>
             </div>
-            <p className="text-xs text-slate-500 italic">250 XP remaining until you reach "Legendary Senpai" status.</p>
+            <p className="text-xs text-slate-500 italic">250 XP restants avant d'atteindre le statut "Senpai Légendaire".</p>
           </div>
         </div>
         <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm flex flex-col justify-center">
-          <p className="text-slate-400 text-sm font-medium">Global Ranking</p>
+          <p className="text-slate-400 text-sm font-medium">Classement Mondial</p>
           <div className="flex items-end gap-2 mt-1">
-            <h2 className="text-4xl font-bold text-white">#1,204</h2>
+            <h2 className="text-4xl font-bold text-white">#1 204</h2>
             <span className="text-emerald-500 text-sm font-bold flex items-center mb-1">
               <Star className="size-4 fill-emerald-500" /> 50
             </span>
           </div>
-          <p className="text-xs text-slate-500 mt-2">Top 5% of active voters this season</p>
+          <p className="text-xs text-slate-500 mt-2">Top 5% des votants actifs cette saison</p>
         </div>
       </section>
 
@@ -86,7 +86,7 @@ export default function Profile() {
         <div className="lg:col-span-4 space-y-8">
           <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm">
             <h3 className="font-bold text-lg mb-6 flex items-center gap-2 text-white">
-              <BarChart3 className="size-5 text-primary" /> Genre Expertise
+              <BarChart3 className="size-5 text-primary" /> Expertise par Genre
             </h3>
             <div className="relative w-full aspect-square flex items-center justify-center">
               <svg className="w-full h-full" viewBox="0 0 200 200">
@@ -108,7 +108,7 @@ export default function Profile() {
               <h3 className="font-bold text-lg flex items-center gap-2 text-white">
                 <Shield className="size-5 text-primary" /> Badges
               </h3>
-              <button className="text-xs text-primary font-bold hover:underline">View All</button>
+              <button className="text-xs text-primary font-bold hover:underline">Voir tout</button>
             </div>
             <div className="flex flex-wrap gap-4">
               {[Zap, Shield, Star].map((Icon, i) => (
@@ -127,16 +127,16 @@ export default function Profile() {
         <div className="lg:col-span-8 space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm">
-              <p className="text-slate-400 text-sm font-medium">Total Votes Cast</p>
+              <p className="text-slate-400 text-sm font-medium">Total des votes exprimés</p>
               <div className="flex items-center gap-4 mt-2">
-                <h2 className="text-3xl font-bold text-white">1,240</h2>
-                <span className="bg-emerald-500/10 text-emerald-500 text-xs px-2 py-0.5 rounded-full font-bold">+12% this week</span>
+                <h2 className="text-3xl font-bold text-white">1 240</h2>
+                <span className="bg-emerald-500/10 text-emerald-500 text-xs px-2 py-0.5 rounded-full font-bold">+12% cette semaine</span>
               </div>
             </div>
             <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm">
-              <p className="text-slate-400 text-sm font-medium">Quiz Accuracy</p>
+              <p className="text-slate-400 text-sm font-medium">Précision des Quiz</p>
               <div className="flex items-center gap-4 mt-2">
-                <h2 className="text-3xl font-bold text-primary">94.5%</h2>
+                <h2 className="text-3xl font-bold text-primary">94,5%</h2>
                 <span className="bg-primary/10 text-primary text-xs px-2 py-0.5 rounded-full font-bold">Excellent</span>
               </div>
             </div>
@@ -144,13 +144,13 @@ export default function Profile() {
 
           <div className="space-y-4">
             <h3 className="font-bold text-xl flex items-center gap-2 text-white">
-              <Heart className="size-5 text-primary" /> Top 3 Favorites
+              <Heart className="size-5 text-primary" /> Top 3 Favoris
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { name: 'Chainsaw Man', votes: 24, rank: '1st', img: 'https://picsum.photos/seed/csm1/400/600' },
-                { name: 'Solo Leveling', votes: 18, rank: '2nd', img: 'https://picsum.photos/seed/solo/400/600' },
-                { name: 'Neon Genesis', votes: 12, rank: '3rd', img: 'https://picsum.photos/seed/eva/400/600' },
+                { name: 'Chainsaw Man', votes: 24, rank: '1er', img: 'https://picsum.photos/seed/csm1/400/600' },
+                { name: 'Solo Leveling', votes: 18, rank: '2e', img: 'https://picsum.photos/seed/solo/400/600' },
+                { name: 'Neon Genesis', votes: 12, rank: '3e', img: 'https://picsum.photos/seed/eva/400/600' },
               ].map((anime, i) => (
                 <div key={i} className="group relative rounded-xl overflow-hidden aspect-[2/3] bg-slate-800 shadow-lg cursor-pointer">
                   <img src={anime.img} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt={anime.name} referrerPolicy="no-referrer" />
@@ -160,7 +160,7 @@ export default function Profile() {
                   }`}>{anime.rank}</div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <p className="text-white font-bold truncate">{anime.name}</p>
-                    <p className="text-slate-300 text-xs">Voted {anime.votes} times</p>
+                    <p className="text-slate-300 text-xs">Voté {anime.votes} fois</p>
                   </div>
                 </div>
               ))}
@@ -169,27 +169,27 @@ export default function Profile() {
 
           <div className="bg-primary/5 border border-primary/10 rounded-xl p-6 shadow-sm">
             <h3 className="font-bold text-lg mb-6 flex items-center gap-2 text-white">
-              <Clock className="size-5 text-primary" /> Recent Activity
+              <Clock className="size-5 text-primary" /> Activité Récente
             </h3>
             <div className="space-y-6">
               <div className="flex gap-4 relative pb-6 border-l-2 border-primary/20 ml-2 pl-6">
                 <div className="absolute -left-[9px] top-0 size-4 rounded-full bg-primary border-4 border-background-dark"></div>
                 <div className="flex flex-col flex-1">
                   <div className="flex items-center justify-between">
-                    <p className="text-sm font-semibold text-white">Completed "Ultimate Shonen Quiz"</p>
-                    <span className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">2h ago</span>
+                    <p className="text-sm font-semibold text-white">A terminé "Quiz Shonen Ultime"</p>
+                    <span className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Il y a 2h</span>
                   </div>
-                  <p className="text-xs text-slate-400 mt-1">Scored 95% (Perfect Accuracy bonus! +50 XP)</p>
+                  <p className="text-xs text-slate-400 mt-1">Score 95% (Bonus Précision Parfaite ! +50 XP)</p>
                 </div>
               </div>
               <div className="flex gap-4 relative pb-6 border-l-2 border-primary/20 ml-2 pl-6">
                 <div className="absolute -left-[9px] top-0 size-4 rounded-full bg-primary/40 border-4 border-background-dark"></div>
                 <div className="flex flex-col flex-1">
                   <div className="flex items-center justify-between">
-                    <p className="text-sm font-semibold text-white">Voted for "Chainsaw Man"</p>
-                    <span className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">5h ago</span>
+                    <p className="text-sm font-semibold text-white">A voté pour "Chainsaw Man"</p>
+                    <span className="text-[10px] text-slate-500 uppercase font-bold tracking-widest">Il y a 5h</span>
                   </div>
-                  <p className="text-xs text-slate-400 mt-1">Participated in Season Fall 2023 voting polls.</p>
+                  <p className="text-xs text-slate-400 mt-1">A participé aux sondages de la saison Automne 2023.</p>
                 </div>
               </div>
             </div>

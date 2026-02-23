@@ -27,18 +27,18 @@ export default function Leaderboard() {
           </h2>
           <div className="flex items-center gap-2 text-slate-500">
             <Clock className="size-4" />
-            <p className="text-sm font-medium">Rank reset in <span className="text-primary">2d 14h 22m</span></p>
+            <p className="text-sm font-medium">Réinitialisation dans <span className="text-primary">2j 14h 22m</span></p>
           </div>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex bg-primary/10 p-1 rounded-xl">
             <button className="px-6 py-2 rounded-lg text-sm font-bold bg-primary text-white shadow-sm">Global</button>
-            <button className="px-6 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-primary">Regional</button>
-            <button className="px-6 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-primary">Friends</button>
+            <button className="px-6 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-primary">Régional</button>
+            <button className="px-6 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-primary">Amis</button>
           </div>
           <button className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
-            <Zap className="size-4" /> Take a Quiz
+            <Zap className="size-4" /> Faire un Quiz
           </button>
         </div>
       </div>
@@ -91,12 +91,12 @@ export default function Leaderboard() {
           <table className="w-full text-left border-collapse">
             <thead>
               <tr className="bg-primary/10 text-slate-400 text-xs font-bold uppercase tracking-wider">
-                <th className="px-6 py-4 w-20 text-center">Rank</th>
-                <th className="px-6 py-4">User</th>
-                <th className="px-6 py-4">Title</th>
-                <th className="px-6 py-4 text-center">Quiz Score</th>
+                <th className="px-6 py-4 w-20 text-center">Rang</th>
+                <th className="px-6 py-4">Utilisateur</th>
+                <th className="px-6 py-4">Titre</th>
+                <th className="px-6 py-4 text-center">Score Quiz</th>
                 <th className="px-6 py-4 text-center">Votes</th>
-                <th className="px-6 py-4 text-right">Trend</th>
+                <th className="px-6 py-4 text-right">Tendance</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-primary/5">
@@ -130,7 +130,7 @@ export default function Leaderboard() {
         </div>
         <div className="p-6 bg-primary/5 border-t border-primary/10 flex justify-center">
           <button className="text-sm font-bold text-primary hover:underline flex items-center gap-1">
-            Load more hunters
+            Charger plus de chasseurs
           </button>
         </div>
       </div>
@@ -143,19 +143,19 @@ export default function Leaderboard() {
               124
             </div>
             <div>
-              <p className="text-[10px] uppercase font-bold text-white/70">Your Ranking</p>
+              <p className="text-[10px] uppercase font-bold text-white/70">Votre Classement</p>
               <p className="font-bold">Zoro_Lost_Again</p>
             </div>
           </div>
           <div className="flex gap-8 items-center">
             <div className="hidden sm:block text-right">
-              <p className="text-[10px] uppercase font-bold text-white/70">Points to Next Rank</p>
+              <p className="text-[10px] uppercase font-bold text-white/70">Points avant prochain rang</p>
               <p className="font-bold">240 pts</p>
             </div>
             <div className="h-8 w-px bg-white/20 hidden sm:block"></div>
             <div className="flex items-center gap-6">
               <div className="text-center">
-                <span className="block text-[10px] uppercase font-bold text-white/70">Quiz Score</span>
+                <span className="block text-[10px] uppercase font-bold text-white/70">Score Quiz</span>
                 <span className="font-black">4,520</span>
               </div>
               <div className="text-center">
@@ -164,7 +164,7 @@ export default function Leaderboard() {
               </div>
             </div>
             <button className="bg-white text-primary px-4 py-1.5 rounded-lg font-black text-xs uppercase tracking-wider hover:bg-slate-100 transition-colors">
-              Boost Rank
+              Booster le rang
             </button>
           </div>
         </div>

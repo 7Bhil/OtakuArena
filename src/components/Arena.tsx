@@ -22,7 +22,7 @@ export default function Arena() {
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-2">
               <span className="text-primary"><Vote className="size-4" /></span>
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-300">Daily Goal Progress</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-300">Objectif quotidien</span>
             </div>
             <span className="text-xs font-bold text-primary">13 / 20 Votes</span>
           </div>
@@ -34,8 +34,8 @@ export default function Arena() {
         {/* Arena */}
         <main className="flex-grow flex flex-col items-center justify-center p-6">
           <div className="text-center mb-10">
-            <h2 className="text-4xl font-extrabold text-white mb-2 tracking-tight">Who Wins the Battle?</h2>
-            <p className="text-slate-400 text-lg">Pick your favorite to climb the global leaderboard</p>
+            <h2 className="text-4xl font-extrabold text-white mb-2 tracking-tight">Qui gagne le combat ?</h2>
+            <p className="text-slate-400 text-lg">Choisissez votre favori pour grimper dans le classement mondial</p>
           </div>
 
           <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 relative items-center">
@@ -59,7 +59,7 @@ export default function Arena() {
               </div>
               <div className="mt-6 w-full max-w-[400px]">
                 <button className="w-full bg-primary hover:bg-primary/90 text-white font-black py-4 rounded-xl shadow-xl transition-all flex items-center justify-center gap-3 uppercase tracking-widest text-lg active:scale-95">
-                  Vote Now <Vote className="size-6" />
+                  Voter Maintenant <Vote className="size-6" />
                 </button>
               </div>
             </motion.div>
@@ -91,7 +91,7 @@ export default function Arena() {
               </div>
               <div className="mt-6 w-full max-w-[400px]">
                 <button className="w-full bg-primary hover:bg-primary/90 text-white font-black py-4 rounded-xl shadow-xl transition-all flex items-center justify-center gap-3 uppercase tracking-widest text-lg active:scale-95">
-                  Vote Now <Vote className="size-6" />
+                  Voter Maintenant <Vote className="size-6" />
                 </button>
               </div>
             </motion.div>
@@ -100,11 +100,11 @@ export default function Arena() {
           {/* Actions */}
           <div className="mt-16 flex items-center gap-6">
             <button className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 font-bold uppercase tracking-widest text-sm">
-              <SkipForward className="size-4" /> Skip Battle
+              <SkipForward className="size-4" /> Passer le combat
             </button>
             <div className="w-px h-4 bg-slate-700"></div>
             <button className="text-slate-500 hover:text-red-400 transition-colors flex items-center gap-2 font-bold uppercase tracking-widest text-[10px]">
-              <Flag className="size-3" /> Report Issue
+              <Flag className="size-3" /> Signaler un problème
             </button>
           </div>
         </main>
@@ -112,13 +112,13 @@ export default function Arena() {
         {/* Footer */}
         <footer className="p-8 text-center bg-background-dark/50 backdrop-blur-sm">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-500 text-xs font-medium">© 2024 AnimeBattle Platform. All artworks property of their respective studios.</p>
+            <p className="text-slate-500 text-xs font-medium">© 2024 AnimeBattle Platform. Toutes les œuvres sont la propriété de leurs studios respectifs.</p>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
-                <Zap className="size-3" /> 12.4k Active Voters
+                <Zap className="size-3" /> 12.4k Votants actifs
               </div>
               <div className="flex items-center gap-2 text-green-400 font-bold text-xs uppercase tracking-widest">
-                <Circle className="size-3 fill-green-400" /> Server Online
+                <Circle className="size-3 fill-green-400" /> Serveur en ligne
               </div>
             </div>
           </div>

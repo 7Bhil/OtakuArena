@@ -39,48 +39,48 @@ export default function App() {
                 <h2 className="text-xl font-black tracking-tighter text-white uppercase italic">Otaku Mash</h2>
               </div>
               <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-                The definitive arena for anime fans to express their passion through voting and knowledge challenges.
+                L'arène ultime pour les fans d'anime pour exprimer leur passion à travers le vote et les défis de connaissances.
               </p>
             </div>
             
             <div>
-              <h4 className="text-white font-bold mb-6 italic">Platform</h4>
+              <h4 className="text-white font-bold mb-6 italic">Plateforme</h4>
               <ul className="space-y-4 text-sm text-slate-500">
-                <li><button onClick={() => setActiveTab('arena')} className="hover:text-primary transition-colors">Vote</button></li>
-                <li><button onClick={() => setActiveTab('quizzes')} className="hover:text-primary transition-colors">Quizzes</button></li>
-                <li><button onClick={() => setActiveTab('leaderboard')} className="hover:text-primary transition-colors">Ranking</button></li>
+                <li><button onClick={() => setActiveTab('arena')} className="hover:text-primary transition-colors">Voter</button></li>
+                <li><button onClick={() => setActiveTab('quizzes')} className="hover:text-primary transition-colors">Quiz</button></li>
+                <li><button onClick={() => setActiveTab('leaderboard')} className="hover:text-primary transition-colors">Classement</button></li>
                 <li><button className="hover:text-primary transition-colors">API</button></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-white font-bold mb-6 italic">Community</h4>
+              <h4 className="text-white font-bold mb-6 italic">Communauté</h4>
               <ul className="space-y-4 text-sm text-slate-500">
                 <li><button className="hover:text-primary transition-colors">Discord</button></li>
                 <li><button className="hover:text-primary transition-colors">Twitter</button></li>
-                <li><button className="hover:text-primary transition-colors">Guidelines</button></li>
-                <li><button className="hover:text-primary transition-colors">Events</button></li>
+                <li><button className="hover:text-primary transition-colors">Directives</button></li>
+                <li><button className="hover:text-primary transition-colors">Événements</button></li>
               </ul>
             </div>
             
             <div className="col-span-2">
-              <h4 className="text-white font-bold mb-6 italic">Stay Notified</h4>
+              <h4 className="text-white font-bold mb-6 italic">Rester informé</h4>
               <div className="flex gap-2">
                 <input 
                   type="email" 
-                  placeholder="Email address" 
+                  placeholder="Adresse email" 
                   className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-sm focus:ring-primary focus:border-primary outline-none text-white"
                 />
-                <button className="bg-primary hover:bg-primary/90 text-white px-4 py-2.5 rounded-lg text-sm font-bold">Subscribe</button>
+                <button className="bg-primary hover:bg-primary/90 text-white px-4 py-2.5 rounded-lg text-sm font-bold">S'abonner</button>
               </div>
             </div>
           </div>
           
           <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-600">
-            <p>© 2024 Otaku Mash Arena. All characters are property of their respective studios.</p>
+            <p>© 2024 Otaku Mash Arena. Tous les personnages sont la propriété de leurs studios respectifs.</p>
             <div className="flex gap-8">
-              <button className="hover:text-white transition-colors">Privacy Policy</button>
-              <button className="hover:text-white transition-colors">Terms of Service</button>
+              <button className="hover:text-white transition-colors">Politique de confidentialité</button>
+              <button className="hover:text-white transition-colors">Conditions d'utilisation</button>
             </div>
           </div>
         </div>

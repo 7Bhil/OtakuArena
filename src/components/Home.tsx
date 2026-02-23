@@ -23,16 +23,16 @@ export default function Home({ setActiveTab }: HomeProps) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
               </span>
-              Season 4 Live Now
+              Saison 4 en cours
             </div>
             
             <h1 className="text-6xl lg:text-8xl font-black tracking-tight leading-[0.9] text-white">
-              THE ULTIMATE <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-blue">ANIME ARENA.</span>
+              L'ARÈNE <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-blue">ANIME ULTIME.</span>
             </h1>
             
             <p className="text-xl text-slate-400 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Face-off in epic anime battles, test your knowledge with themed quizzes, and climb the global leaderboard to become the ultimate Otaku.
+              Affrontez-vous dans des combats d'anime épiques, testez vos connaissances avec des quiz thématiques et grimpez dans le classement mondial pour devenir l'Otaku ultime.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start pt-4">
@@ -40,14 +40,14 @@ export default function Home({ setActiveTab }: HomeProps) {
                 onClick={() => setActiveTab('arena')}
                 className="group relative bg-primary hover:scale-105 transition-transform text-white px-10 py-5 rounded-xl font-bold text-lg flex items-center gap-3 shadow-xl shadow-primary/20"
               >
-                Start Mashing
+                Commencer le Mash
                 <Rocket className="size-6 group-hover:translate-x-1 transition-transform" />
               </button>
               <button 
                 onClick={() => setActiveTab('leaderboard')}
                 className="px-10 py-5 rounded-xl font-bold text-lg border border-primary/20 hover:bg-primary/5 transition-all flex items-center gap-3"
               >
-                View Rankings
+                Voir le classement
                 <Trophy className="size-6" />
               </button>
             </div>
@@ -55,17 +55,17 @@ export default function Home({ setActiveTab }: HomeProps) {
             <div className="flex items-center justify-center lg:justify-start gap-8 pt-8 opacity-60">
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-white italic">1.2M+</div>
-                <div className="text-xs uppercase tracking-tighter">Votes Cast</div>
+                <div className="text-xs uppercase tracking-tighter">Votes exprimés</div>
               </div>
               <div className="w-px h-8 bg-primary/20"></div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-white italic">45k</div>
-                <div className="text-xs uppercase tracking-tighter">Active Users</div>
+                <div className="text-xs uppercase tracking-tighter">Utilisateurs actifs</div>
               </div>
               <div className="w-px h-8 bg-primary/20"></div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-white italic">800+</div>
-                <div className="text-xs uppercase tracking-tighter">Quizzes</div>
+                <div className="text-xs uppercase tracking-tighter">Quiz</div>
               </div>
             </div>
           </motion.div>
@@ -108,7 +108,7 @@ export default function Home({ setActiveTab }: HomeProps) {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute bottom-6 left-6 right-6 z-20">
-                  <span className="text-[10px] font-bold text-accent-blue uppercase tracking-[0.2em]">Defender</span>
+                  <span className="text-[10px] font-bold text-accent-blue uppercase tracking-[0.2em]">Défenseur</span>
                   <h3 className="text-xl font-bold text-white">Cursed King</h3>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function Home({ setActiveTab }: HomeProps) {
         {/* Path Selection */}
         <section className="py-24">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl font-black italic text-white">CHOOSE YOUR PATH</h2>
+            <h2 className="text-4xl font-black italic text-white">CHOISISSEZ VOTRE VOIE</h2>
             <div className="h-1.5 w-24 bg-primary mx-auto rounded-full"></div>
           </div>
           
@@ -131,12 +131,12 @@ export default function Home({ setActiveTab }: HomeProps) {
               <div className="size-16 rounded-xl bg-primary/20 flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
                 <Swords className="size-8" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4 italic">Face-off</h3>
+              <h3 className="text-2xl font-bold text-white mb-4 italic">Face-à-face</h3>
               <p className="text-slate-400 mb-6 leading-relaxed">
-                Two titans enter, one remains. Vote in blind match-ups to determine the global community rankings.
+                Deux titans entrent, un seul reste. Votez dans des duels à l'aveugle pour déterminer le classement mondial de la communauté.
               </p>
               <div className="flex items-center text-primary font-bold text-sm uppercase tracking-wider group-hover:gap-2 transition-all">
-                Enter Arena <ChevronRight className="size-4 ml-1" />
+                Entrer dans l'Arène <ChevronRight className="size-4 ml-1" />
               </div>
             </div>
 
@@ -147,12 +147,12 @@ export default function Home({ setActiveTab }: HomeProps) {
               <div className="size-16 rounded-xl bg-accent-blue/20 flex items-center justify-center text-accent-blue mb-8 group-hover:scale-110 transition-transform">
                 <Brain className="size-8" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4 italic">Otaku Quizzes</h3>
+              <h3 className="text-2xl font-bold text-white mb-4 italic">Quiz Otaku</h3>
               <p className="text-slate-400 mb-6 leading-relaxed">
-                Test your lore knowledge with dynamic themed quizzes. From Shonen basics to Seinen obscurities.
+                Testez vos connaissances sur l'univers de l'anime avec des quiz thématiques dynamiques. Du Shonen basique au Seinen obscur.
               </p>
               <div className="flex items-center text-accent-blue font-bold text-sm uppercase tracking-wider group-hover:gap-2 transition-all">
-                Take a Quiz <ChevronRight className="size-4 ml-1" />
+                Faire un Quiz <ChevronRight className="size-4 ml-1" />
               </div>
             </div>
 
@@ -163,12 +163,12 @@ export default function Home({ setActiveTab }: HomeProps) {
               <div className="size-16 rounded-xl bg-white/10 flex items-center justify-center text-white mb-8 group-hover:scale-110 transition-transform">
                 <Trophy className="size-8" />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4 italic">Global Rank</h3>
+              <h3 className="text-2xl font-bold text-white mb-4 italic">Rang Mondial</h3>
               <p className="text-slate-400 mb-6 leading-relaxed">
-                Earn points for every vote and quiz. Climb the ranks to unlock exclusive profile frames and badges.
+                Gagnez des points pour chaque vote et quiz. Grimpez dans les rangs pour débloquer des cadres de profil et des badges exclusifs.
               </p>
               <div className="flex items-center text-white font-bold text-sm uppercase tracking-wider group-hover:gap-2 transition-all">
-                Climb Rankings <ChevronRight className="size-4 ml-1" />
+                Grimper au classement <ChevronRight className="size-4 ml-1" />
               </div>
             </div>
           </div>

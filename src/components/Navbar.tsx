@@ -26,25 +26,25 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
               onClick={() => setActiveTab('arena')}
               className={`text-sm font-semibold transition-colors flex items-center gap-2 ${activeTab === 'arena' ? 'text-primary' : 'hover:text-primary'}`}
             >
-              <Swords className="size-4" /> Vote
+              <Swords className="size-4" /> Voter
             </button>
             <button 
               onClick={() => setActiveTab('quizzes')}
               className={`text-sm font-semibold transition-colors flex items-center gap-2 ${activeTab === 'quizzes' ? 'text-primary' : 'hover:text-primary'}`}
             >
-              <Brain className="size-4" /> Quizzes
+              <Brain className="size-4" /> Quiz
             </button>
             <button 
               onClick={() => setActiveTab('leaderboard')}
               className={`text-sm font-semibold transition-colors flex items-center gap-2 ${activeTab === 'leaderboard' ? 'text-primary' : 'hover:text-primary'}`}
             >
-              <Trophy className="size-4" /> Ranking
+              <Trophy className="size-4" /> Classement
             </button>
             <button 
               onClick={() => setActiveTab('profile')}
               className={`text-sm font-semibold transition-colors flex items-center gap-2 ${activeTab === 'profile' ? 'text-primary' : 'hover:text-primary'}`}
             >
-              <User className="size-4" /> Profile
+              <User className="size-4" /> Profil
             </button>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
             <Search className="text-primary size-4 mr-2" />
             <input 
               type="text" 
-              placeholder="Search anime..." 
+              placeholder="Rechercher un anime..." 
               className="bg-transparent border-none focus:ring-0 text-sm w-40 placeholder:text-slate-500 text-white outline-none"
             />
           </div>
@@ -64,7 +64,7 @@ export default function Navbar({ activeTab, setActiveTab }: NavbarProps) {
               <Bell className="size-5" />
             </button>
             <button className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg text-sm font-bold shadow-lg shadow-primary/25 transition-all">
-              Join the Mash
+              Rejoindre le Mash
             </button>
           </div>
         </div>
